@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="inline-flex items-center gap-2 text-white">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-fuchsia-500 to-cyan-400">
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-pink-500 via-amber-400 to-cyan-400">
               <Rocket size={18} />
             </span>
             <span className="font-semibold tracking-tight">YourName.dev</span>
@@ -59,7 +59,7 @@ export default function Navbar() {
             <a
               aria-label="Email"
               href="#contact"
-              className="hidden sm:inline-flex h-9 items-center gap-2 rounded-md bg-gradient-to-r from-fuchsia-500 to-cyan-400 px-3 text-sm font-medium text-black hover:opacity-95 transition-opacity"
+              className="hidden sm:inline-flex h-9 items-center gap-2 rounded-md bg-gradient-to-r from-pink-500 via-amber-400 to-cyan-400 px-3 text-sm font-medium text-black hover:opacity-95 transition-opacity"
             >
               <Mail size={16} /> Contact
             </a>
